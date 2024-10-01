@@ -8,7 +8,7 @@
 - [Methodology](#methodology)
 - [Analysis](#analysis)
 - [Results](#results)
-- [Visualizations](#visualizations)
+- [Visualisations](#visualisations)
 
 ## Project Overview
 
@@ -91,13 +91,11 @@ In contrast to my other similar project, this project does not focus solely on r
 
 - With the info from above, I was happy to move ahead with my final visualisation, plotting YAC against Team Target % to see which players have performed best in these stats through Week 4 of the season.
 
-  ![image](https://github.com/user-attachments/assets/918f7b6c-e8c1-4300-b01d-f2a4e1f2bd2b)
+  ![image](https://github.com/user-attachments/assets/d1b56cd9-c699-409b-85ca-9a4d27f96b9e)
 
-- **Key Finding 1**: Fantasy football players should focus on players who played in the SEC. Outside of this, college conference is not a good indicator of fantasy success.
-- **Key Finding 2**: As draft round increases. There is a visible drop in the average PPG. However there are exceptions in later rounds. This indicates that players drafted in earlier rounds might be given more opportunities to play whether or not they are playing well.
-- **Key Finding 3**: Draft round is not a good indicator of players who score a WR 1 average over their careers. There seems to be a negative correlation between draft round and PPG, however this correlation is not strong due to the outliers in the later round.
-- **Key Finding 4**: There is a strong correlation between scoring at least 10 PPG and beign drafted in the top 3 rounds.
-- **Key Finding 5**: Fantasy players may benefit from takign as many "flyer" picks as possible in later rounds and stashing them as there seems to be oppotunities to get a "hit" if enough chances are taken.
+- **Key Finding 1**: Highly valued but low performing fantasy players such as Jamaar Chase and Jaxon Smith-Njigba might be possible sells if I can get similar production back + draft captital.
+- **Key Finding 2**: I should look to buy for players with high YAC but low target % that are sitting behind an aging WR 1 such as Rome Odunze, Jameson Williams & Jaylen Waddle.
+- **Key Finding 3**: Khalil Shakir & Rashee Rice are both heavily undervalued for their current performance.
 
 ## Contact
 
