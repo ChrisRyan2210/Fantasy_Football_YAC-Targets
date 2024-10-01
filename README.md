@@ -41,16 +41,34 @@ In contrast to my other similar project, this project does not focus solely on r
 
 1. **Data Analysis**:
    - Python (VSCode)
-       - Importing csv file using Pandas. ![image](https://github.com/user-attachments/assets/b0572cc4-8c57-40d3-bed8-b0c9d09ca000)
-       - Quick checks on DataFrame formatting.  ![image](https://github.com/user-attachments/assets/fdbc0197-72ac-419c-9559-34d1bdf7dadf)
+       - Importing csv file using Pandas.
+
+          ![image](https://github.com/user-attachments/assets/b0572cc4-8c57-40d3-bed8-b0c9d09ca000)
+         
+       - Quick checks on DataFrame formatting.
+
+          ![image](https://github.com/user-attachments/assets/fdbc0197-72ac-419c-9559-34d1bdf7dadf)
+         
        - Checking for null values.
-       - ![image](https://github.com/user-attachments/assets/4aab7f9d-56e5-45fd-9959-b6de66af8c4c)
+         
+       ![image](https://github.com/user-attachments/assets/4aab7f9d-56e5-45fd-9959-b6de66af8c4c)
+     
        - Next I wanted to find any outliers. As we are only 4 weeks into the season I knew certain players would have 100% passes caught due to only being targeted a very small amount of times. So I looked for players with very high Target & Yard percentages.
-       - 
-         - Using Seaborn to check for outliers in Targets Per Route Run % ![image](https://github.com/user-attachments/assets/6a80d3a6-5785-4358-840b-2b60c1738074)
-         - Using Seaborn to check for outliers in Yards Per Route Run ![image](https://github.com/user-attachments/assets/baa5d440-f410-47d0-9ae7-a5713a5826cf)
-       - As there were so many outliers, I decided to check the data source and found the best way to move forward was to remove players with less than 5 targets ![image](https://github.com/user-attachments/assets/dce54c71-b9b3-4d81-8094-387279547422)
-       - Finally, I wanted to filter to only Wide Receivers and call the .corr() function on the dataframe. ![image](https://github.com/user-attachments/assets/92cda310-a304-4ce7-b2d7-a0f552aa4a55)
+         - Using Seaborn to check for outliers in Targets Per Route Run %
+           
+            ![image](https://github.com/user-attachments/assets/6a80d3a6-5785-4358-840b-2b60c1738074)
+         
+         - Using Seaborn to check for outliers in Yards Per Route Run
+
+           ![image](https://github.com/user-attachments/assets/baa5d440-f410-47d0-9ae7-a5713a5826cf)
+           
+       - As there were so many outliers, I decided to check the data source and found the best way to move forward was to remove players with less than 5 targets
+
+          ![image](https://github.com/user-attachments/assets/dce54c71-b9b3-4d81-8094-387279547422)
+         
+       - Finally, I wanted to filter to only Wide Receivers and call the .corr() function on the dataframe.
+
+         ![image](https://github.com/user-attachments/assets/92cda310-a304-4ce7-b2d7-a0f552aa4a55)
          
 ## Visualisations
 
