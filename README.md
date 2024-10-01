@@ -26,7 +26,7 @@ In contrast to my other similar project, this project does not focus solely on r
 ![SQL Server Badge](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=Microsoft-SQL-Server&logoColor=white)
 ![Tableau Badge](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 - **SQL**: For data cleaning and transforming.
-- **Python**: For data/statistical analysis & visualisation (Pandas/Matplotlib/Seaborn).
+- **Python**: For data/statistical analysis & visualisation (Pandas/Matplotlib/Numpy/Seaborn).
 - **Tableau**: For data visualisation.
 
 ## Data
@@ -62,7 +62,7 @@ In contrast to my other similar project, this project does not focus solely on r
 
            ![image](https://github.com/user-attachments/assets/baa5d440-f410-47d0-9ae7-a5713a5826cf)
            
-       - As there were so many outliers, I decided to check the data source and found the best way to move forward was to remove players with less than 5 targets
+       - As there were so many outliers, I decided to check the data source and found the best way to move forward was to remove players with less than 5 targets which allowed me to keep true anomolies/outliers in the dataset.
 
           ![image](https://github.com/user-attachments/assets/dce54c71-b9b3-4d81-8094-387279547422)
          
@@ -74,19 +74,24 @@ In contrast to my other similar project, this project does not focus solely on r
 
 1. **Visualisation 1**
 
-   ![image](https://github.com/user-attachments/assets/47f53efb-96b0-4129-9071-3b0e0cdf8123)
+   - I wanted to avoid using the stats that directly scored points in fantasy football, Yards & Receptions, as these have been heavily analysed in the past. So using the correlation results from above, I decided to focus on Yards After the Catch (YAC) & Team Target % 
 
-   - This dashboard shows the average point per game (PPG) scored over a players career as well as displaying the players by draft round. Furthermore, the relative size of the marks on the dashboard represent total points score.
-   - The two refenence lines (WR 1) and (WR 2) represent the average points a player would need to score over their career to finish in the sought after WR 1 and WR 2 fantasy rankings.
+    ![image](https://github.com/user-attachments/assets/b9fbb582-644e-436a-b00d-d7bfd5efb02b)
+
+   - This scatter plot shows a positive correlation between YAC & Fantasy Points Scored (Pts)
      
 2. **Visualization 2**
 
-   ![image](https://github.com/user-attachments/assets/0552ebcb-0b99-4243-9501-a1f4cba53192)
+   ![image](https://github.com/user-attachments/assets/b8266b68-3030-4bfc-b898-128bbf9b3736)
 
-   - It's clear to see that the SEC boasts the highest number of WR 1/WR 2 players in fantasy football, with 9 total players achieving at least a career average WR 2 finish.
-   - In fact, the next best conference is the Big Ten with only 4 players scoring an average of at least a WR 2 finish over their careers.
+   - Similarly, thiss scatter plot shows a strong positive correlation between Team Target % & Fantasy Points Scored (Pts)
+  
 
 ## Results
+
+- With the info from above, I was happy to move ahead with my final visualisation, plotting YAC against Team Target % to see which players have performed best in these stats through Week 4 of the season.
+
+  ![image](https://github.com/user-attachments/assets/918f7b6c-e8c1-4300-b01d-f2a4e1f2bd2b)
 
 - **Key Finding 1**: Fantasy football players should focus on players who played in the SEC. Outside of this, college conference is not a good indicator of fantasy success.
 - **Key Finding 2**: As draft round increases. There is a visible drop in the average PPG. However there are exceptions in later rounds. This indicates that players drafted in earlier rounds might be given more opportunities to play whether or not they are playing well.
