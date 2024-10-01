@@ -14,7 +14,7 @@
 
 I play a lot of fantasy football, most of it with money on the line. I could talk for hours on strategy in dynasty leagues, but to keep it simple, I am aiming to moneyball the hell out of my leagues. In other words, I am always trying to find undervalued players that I can trade for to give me the competitive advantage wherever possible.
 
-This project aims to analyse NLF wide receiver (WR) stats from week 1 through week 4 of the 2024 NFL season in an attempt to find correlation between WR stats and the amount of points they score in fantasy football.
+This project aims to analyse NFL wide receiver (WR) stats from week 1 through week 4 of the 2024 NFL season in an attempt to find correlation between WR stats and the amount of points they score in fantasy football.
 
 In contrast to my other similar project, this project does not focus solely on rookies fantasy scoring, but aims to be a broader look at real life NFL stats of all WR's in the NFL. With that said, I aim to answer two main questions...
 
